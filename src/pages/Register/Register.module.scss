@@ -1,0 +1,39 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 2rem 2.5rem 2rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  background-color: #ffffff;
+  }
+  
+  .formTitle {
+    margin-bottom: 2rem;
+   font-size: 24px;
+   color: #333;
+   text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input {
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .submitButton {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+
+  }
+  
